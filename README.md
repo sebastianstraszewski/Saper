@@ -14,6 +14,7 @@ Następnie rozpoczyna się rozgrywka:
 - Gracz może wybrać dowolne pole, poprzez kliknięcie na nim myszką.
 - Po kliknięciu na pole, wyświetla się jego zawartość (informacja o sąsiadujących minach, lub informacja o minie).
 
+<br></br>
 ### INTERFEJS
 - Plansza została zaimplementowana jako własna klasa Plansza, która dziedziczy bezpośrednio po Gtk.Table lub Gtk.Grid.
 - Plansza zawiera n×n pól, a na nich w losowych miejscach n min.
@@ -26,9 +27,11 @@ Następnie rozpoczyna się rozgrywka:
   * trzy miny w sąsiedztwie: pogrubiona liczba 3 w kolorze "tomato",
   * cztery i więcej min w sąsiedztwie: pogrubiona liczba min w kolorze "brown".
 
+<br></br>
 ### MECHANIKA GRY
 - Mechanika aplikacji została zaimplementowana wewnątrz klasy App.
 - Przycisk "Nowa gra" może zostać wciśnięty w każdej chwili i resetuje rozgrywkę.
 
-#### Uwaga
-Program będący rozwiązaniem musi składać się z pojedynczego pliku źródłowego. Program nie powinien zapisywać żadnych danych.
+<br></br>
+> #### Uwaga
+> Program będący rozwiązaniem musi składać się z pojedynczego pliku źródłowego. Program nie powinien zapisywać żadnych danych.

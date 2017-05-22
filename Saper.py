@@ -179,7 +179,7 @@ class App(Gtk.Window):
     def ile_min_w_poblizu(self, x, y):
         """Metoda wyliczajaca ilosc min.
 
-        Metoda ta na bierzaco wylicza ilosc min dla zadanej pozycji pola
+        Metoda ta na biezaco wylicza ilosc min dla zadanej pozycji pola
 
         Parameters:
             x, y  - pozycja przycisku jaki zostal wcisniety
